@@ -1,0 +1,88 @@
+import cv2
+import numpy as np
+import matplotlib.pyplot as plt
+import datetime
+
+def analisar_amostra(imagem_path):
+    # Carrega a imagem
+    imagem = cv2.imread(imagem_path)
+    print("Imagem carregada.")
+
+    # Converte a imagem para escala de cinza
+    imagem_cinza = cv2.cvtColor(imagem, cv2.COLOR_BGR2GRAY)
+    print("Imagem convertida para escala de cinza.")
+
+    # Aplica um filtro de limiarização para segmentar as células
+    _, imagem_limiarizada = cv2.threshold(imagem_cinza, 0, 255, cv2.THRESH_BINARY_INV + cv2.THRESH_OTSU)
+    print("Imagem limiarizada.")
+
+    # Encontra os contornos das células segmentadas
+    contornos, _ = cv2.findContours(imagem_limiarizada, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)[-2:]
+    print("Contornos encontrados.")
+
+    # Inicializa as listas para armazenar os resultados de tamanho, forma e diferença de cor
+    tamanhos = []
+    formas = []
+    diferencas_cor = []
+
+    # Loop sobre cada contorno encontrado
+    for i, contorno in enumerate(contornos):
+        # Calcula a área do contorno
+        area = cv2.contourArea(contorno)
+
+        # Calcula o perímetro do contorno
+        perimetro = cv2.arcLength(contorno, True)
+
+        # Aproxima o contorno para determinar a forma
+        forma = cv2.approxPolyDP(contorno, 0.04 * perimetro, True)
+
+        # Calcula a diferença de cor média na região do contorno
+        mascara = np.zeros(imagem_cinza.shape, dtype=np.uint8)
+        cv2.drawContours(mascara, [contorno], -1, (255), thickness=cv2.FILLED)
+        media_cor = cv2.mean(imagem_cinza, mask=mascara)[0]
+
+        # Armazena os resultados nas respectivas listas
+        tamanhos.append(area)
+        formas.append(len(forma))
+        diferencas_cor.append(media_cor)
+
+    print("Resultados armazenados.")
+
+    # Desenha os contornos encontrados na imagem original
+    imagem_contornos = imagem.copy()
+    cv2.drawContours(imagem_contornos, contornos, -1, (0, 255, 0), 2)
+    print("Contornos desenhados.")
+
+    # Define os thresholds para contagem de células mais escuras e maiores
+    limiar_diferenca_cor = 100
+    limiar_tamanho = 500
+
+    # Conta o número de células que atendem aos thresholds
+    contador_diferenca_cor = sum(1 for diferenca_cor in diferencas_cor if diferenca_cor > limiar_diferenca_cor)
+    contador_tamanho = sum(1 for tamanho in tamanhos if tamanho > limiar_tamanho)
+
+    # Calcula a porcentagem de células mais escuras e maiores em relação ao total de células
+    total_celulas = len(diferencas_cor)
+    porcentagem_diferenca_cor = (contador_diferenca_cor / total_celulas) * 100
+    porcentagem_tamanho = (contador_tamanho / total_celulas) * 100
+
+    print("Número de células mais escuras:", contador_diferenca_cor)
+    print("Número de células maiores:", contador_tamanho)
+    print("Porcentagem de células mais escuras:", porcentagem_diferenca_cor)
+    print("Porcentagem de células maiores:", porcentagem_tamanho)
+
+    # Verifica se a porcentagem de células mais escuras é maior que 5% e exibe um aviso se for o caso
+    if porcentagem_diferenca_cor > 5:
+        print("Aviso: A porcentagem de células mais escuras é maior que 5%.")
+
+    # Exibe a imagem com os contornos desenhados
+    plt.imshow(cv2.cvtColor(imagem_contornos, cv2.COLOR_BGR2RGB))
+    plt.axis('off')
+    plt.show()
+
+
+# Caminho da imagem a ser analisada
+imagem_path = 'imagem.png'
+
+# Realiza a análise da amostra
+analisar_amostra(imagem_path)
