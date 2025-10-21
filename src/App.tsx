@@ -76,15 +76,12 @@ function App() {
               Análise automatizada de amostras celulares com precisão e velocidade
             </p>
 
- 
-              
-  <div className="flex flex-col justify-center items-center space-y-8 my-8">
+ <div className="flex flex-col justify-center items-center space-y-8 my-8">
   <iframe
     className="rounded-lg shadow-lg"
     width="560"
     height="315"
     src="https://www.youtube-nocookie.com/embed/vxNeO3LAzqI?si=4WzBZ_tuoeu2bmW_"
-     src="https://www.youtube-nocookie.com/embed/kvI661vPmi8?si=5I4etsJ2sLGzgKg2"
     title="Vídeo 1"
     frameBorder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -103,10 +100,10 @@ function App() {
     referrerPolicy="strict-origin-when-cross-origin"
     allowFullScreen
   ></iframe>
+</div>
 
-        
-        </div>
-      </section>
+              
+       </section>
             
             <div className="flex flex-wrap gap-4 justify-center">
               <button
