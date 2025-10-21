@@ -106,6 +106,10 @@ function App() {
   ></iframe>
 </div>
 
+   </div>
+        
+        </div>
+      </section>
 
 
 
@@ -135,11 +139,7 @@ function App() {
               
              
              
-                    </div>
-        
-        </div>
-      </section>
-
+                 
       <section id="sobre" className="py-20 px-6 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center max-w-3xl mx-auto mb-16">
