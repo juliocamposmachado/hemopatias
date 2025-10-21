@@ -3,7 +3,6 @@ import { useState } from 'react';
 import ChatAssistant from './components/ChatAssistant';
 import ImageAnalysis from './components/ImageAnalysis';
 
-
 function App() {
   const [showAnalysis, setShowAnalysis] = useState(false);
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
@@ -76,36 +75,33 @@ function App() {
               Análise automatizada de amostras celulares com precisão e velocidade
             </p>
 
- <div className="flex flex-col justify-center items-center space-y-8 my-8">
-  <iframe
-    className="rounded-lg shadow-lg"
-    width="560"
-    height="315"
-    src="https://www.youtube-nocookie.com/embed/vxNeO3LAzqI?si=4WzBZ_tuoeu2bmW_"
-    title="Vídeo 1"
-    frameBorder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    referrerPolicy="strict-origin-when-cross-origin"
-    allowFullScreen
-  ></iframe>
+            <div className="flex flex-col justify-center items-center space-y-8 my-8">
+              <iframe
+                className="rounded-lg shadow-lg w-full max-w-2xl"
+                width="560"
+                height="315"
+                src="https://www.youtube-nocookie.com/embed/vxNeO3LAzqI?si=4WzBZ_tuoeu2bmW_"
+                title="Vídeo 1"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+              ></iframe>
 
-  <iframe
-    className="rounded-lg shadow-lg"
-    width="560"
-    height="315"
-    src="https://www.youtube-nocookie.com/embed/kvI661vPmi8?si=5I4etsJ2sLGzgKg2"
-    title="Vídeo 2"
-    frameBorder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    referrerPolicy="strict-origin-when-cross-origin"
-    allowFullScreen
-  ></iframe>
-</div>
-
-              
-       </section>
+              <iframe
+                className="rounded-lg shadow-lg w-full max-w-2xl"
+                width="560"
+                height="315"
+                src="https://www.youtube-nocookie.com/embed/kvI661vPmi8?si=5I4etsJ2sLGzgKg2"
+                title="Vídeo 2"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+              ></iframe>
+            </div>
             
-            <div className="flex flex-wrap gap-4 justify-center">
+            <div className="flex flex-wrap gap-4 justify-center mt-8">
               <button
                 onClick={() => setShowAnalysis(true)}
                 className="inline-flex items-center gap-2 bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition-all duration-300 shadow-lg hover:shadow-xl font-medium"
