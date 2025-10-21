@@ -38,29 +38,7 @@ function App() {
   };
 
   return (
-   <div className="flex justify-center items-center space-x-8 my-8">
-  <iframe
-    width="560"
-    height="315"
-    src="https://www.youtube-nocookie.com/embed/vxNeO3LAzqI?si=4WzBZ_tuoeu2bmW_"
-    title="Vídeo 1"
-    frameBorder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    referrerPolicy="strict-origin-when-cross-origin"
-    allowFullScreen
-  ></iframe>
 
-  <iframe
-    width="560"
-    height="315"
-    src="https://www.youtube-nocookie.com/embed/kvI661vPmi8?si=5I4etsJ2sLGzgKg2"
-    title="Vídeo 2"
-    frameBorder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    referrerPolicy="strict-origin-when-cross-origin"
-    allowFullScreen
-  ></iframe>
-</div>
 
     
     <div className="min-h-screen bg-white">      
@@ -120,6 +98,7 @@ function App() {
           </div>
           <div className="mt-16 bg-white rounded-2xl shadow-2xl p-8 border border-gray-200">
             <div className="aspect-video rounded-lg overflow-hidden">
+              
               <iframe
   className="w-full h-full rounded-xl"
   src="https://www.youtube.com/embed/vxNeO3LAzqI?rel=0"
@@ -129,6 +108,39 @@ function App() {
   allowFullScreen
   style={{ width: '100%', height: '100%' }}
 ></iframe>
+
+
+                 <div className="flex justify-center items-center space-x-8 my-8">
+  <iframe
+    width="560"
+    height="315"
+    src="https://www.youtube-nocookie.com/embed/vxNeO3LAzqI?si=4WzBZ_tuoeu2bmW_"
+    title="Vídeo 1"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerPolicy="strict-origin-when-cross-origin"
+    allowFullScreen
+  ></iframe>
+
+  <iframe
+    width="560"
+    height="315"
+    src="https://www.youtube-nocookie.com/embed/kvI661vPmi8?si=5I4etsJ2sLGzgKg2"
+    title="Vídeo 2"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerPolicy="strict-origin-when-cross-origin"
+    allowFullScreen
+  ></iframe>
+</div>
+
+
+
+
+
+
+
+              
             </div>
           </div>
         </div>
