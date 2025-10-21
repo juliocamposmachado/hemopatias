@@ -116,10 +116,11 @@ function App() {
               <a href="https://github.com/juliocamposmachado/hemopatias" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-white text-gray-900 px-8 py-4 rounded-lg hover:bg-gray-50 transition-all duration-300 shadow-lg hover:shadow-xl font-medium border border-gray-200">
                 <Github className="w-5 h-5" />
                 Repositório
-              </a>
+               </a>
             </div>
-          </div>                 
-             
+          </div>
+        </div>
+      </section>                  
              
                  
       <section id="sobre" className="py-20 px-6 bg-white">
