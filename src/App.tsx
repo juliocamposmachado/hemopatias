@@ -75,29 +75,12 @@ function App() {
             <p className="text-xl md:text-2xl text-gray-600 mb-10 leading-relaxed">
               Análise automatizada de amostras celulares com precisão e velocidade
             </p>
-            <div className="flex flex-wrap gap-4 justify-center">
-              <button
-                onClick={() => setShowAnalysis(true)}
-                className="inline-flex items-center gap-2 bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition-all duration-300 shadow-lg hover:shadow-xl font-medium"
-              >
-                <Scan className="w-5 h-5" />
-                Analisar Imagem Agora
-              </button>
-              <a href="#demo" className="inline-flex items-center gap-2 bg-white text-gray-900 px-8 py-4 rounded-lg hover:bg-gray-50 transition-all duration-300 shadow-lg hover:shadow-xl font-medium border border-gray-200">
-                <Play className="w-5 h-5" />
-                Ver Demonstração
-              </a>
-              <a href="https://github.com/juliocamposmachado/hemopatias" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-white text-gray-900 px-8 py-4 rounded-lg hover:bg-gray-50 transition-all duration-300 shadow-lg hover:shadow-xl font-medium border border-gray-200">
-                <Github className="w-5 h-5" />
-                Repositório
-              </a>
-            </div>
-          </div>
-          <div className="mt-16 bg-white rounded-2xl shadow-2xl p-8 border border-gray-200">
+
+ <div className="mt-16 bg-white rounded-2xl shadow-2xl p-8 border border-gray-200">
             <div className="aspect-video rounded-lg overflow-hidden">
+
               
-             
-               <div className="flex flex-col justify-center items-center space-y-8 my-8">
+  <div className="flex flex-col justify-center items-center space-y-8 my-8">
   <iframe
     className="rounded-lg shadow-lg"
     width="560"
@@ -123,6 +106,35 @@ function App() {
   ></iframe>
 </div>
 
+
+
+
+
+
+
+            
+            <div className="flex flex-wrap gap-4 justify-center">
+              <button
+                onClick={() => setShowAnalysis(true)}
+                className="inline-flex items-center gap-2 bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition-all duration-300 shadow-lg hover:shadow-xl font-medium"
+              >
+                <Scan className="w-5 h-5" />
+                Analisar Imagem Agora
+              </button>
+              <a href="#demo" className="inline-flex items-center gap-2 bg-white text-gray-900 px-8 py-4 rounded-lg hover:bg-gray-50 transition-all duration-300 shadow-lg hover:shadow-xl font-medium border border-gray-200">
+                <Play className="w-5 h-5" />
+                Ver Demonstração
+              </a>
+              <a href="https://github.com/juliocamposmachado/hemopatias" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-white text-gray-900 px-8 py-4 rounded-lg hover:bg-gray-50 transition-all duration-300 shadow-lg hover:shadow-xl font-medium border border-gray-200">
+                <Github className="w-5 h-5" />
+                Repositório
+              </a>
+            </div>
+          </div>
+         
+              
+             
+             
                     </div>
         
         </div>
