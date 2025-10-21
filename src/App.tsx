@@ -76,9 +76,7 @@ function App() {
               Análise automatizada de amostras celulares com precisão e velocidade
             </p>
 
- <div className="mt-16 bg-white rounded-2xl shadow-2xl p-8 border border-gray-200">
-            <div className="aspect-video rounded-lg overflow-hidden">
-
+ 
               
   <div className="flex flex-col justify-center items-center space-y-8 my-8">
   <iframe
@@ -105,9 +103,7 @@ function App() {
     referrerPolicy="strict-origin-when-cross-origin"
     allowFullScreen
   ></iframe>
-</div>
 
-   </div>
         
         </div>
       </section>
