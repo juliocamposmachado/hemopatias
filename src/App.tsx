@@ -95,12 +95,14 @@ function App() {
           <div className="mt-16 bg-white rounded-2xl shadow-2xl p-8 border border-gray-200">
             <div className="aspect-video rounded-lg overflow-hidden">
               <iframe
-                className="w-full h-full"
-                src="https://youtu.be/vxNeO3LAzqI"
-                title="Análise de Células Sanguíneas"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
+  className="w-full h-full rounded-xl"
+  src="https://www.youtube.com/embed/vxNeO3LAzqI?rel=0"
+  title="Demonstração Hemopatias"
+  frameBorder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowFullScreen
+  style={{ width: '100%', height: '100%' }}
+></iframe>
             </div>
           </div>
         </div>
