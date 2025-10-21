@@ -198,35 +198,111 @@ function App() {
               Visualização do processo de análise e resultados obtidos pelo sistema.
             </p>
           </div>
-          <div className="bg-gradient-to-br from-gray-50 to-white rounded-2xl shadow-xl p-8 border border-gray-200">
-            <div className="grid md:grid-cols-2 gap-8 mb-8">
-              <div className="aspect-square bg-gradient-to-br from-blue-100 to-gray-100 rounded-lg flex items-center justify-center">
-                <div className="text-center">
-                  <Microscope className="w-16 h-16 text-blue-600 mx-auto mb-3" />
-                  <p className="text-gray-600 font-medium">Imagem Original</p>
+
+          <div className="space-y-8">
+            <div className="bg-gradient-to-br from-gray-50 to-white rounded-2xl shadow-xl p-8 border border-gray-200">
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">Interface do Sistema</h3>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="space-y-3">
+                  <img
+                    src="https://github.com/AstridNielsen-lab/hemopatias/assets/32886080/90c32393-b69f-4cc2-94b1-f56291783d46"
+                    alt="Interface Principal do Sistema"
+                    className="w-full rounded-lg border border-gray-200 shadow-md hover:shadow-xl transition-shadow"
+                  />
+                  <p className="text-sm text-gray-600 text-center">Interface principal de análise</p>
                 </div>
-              </div>
-              <div className="aspect-square bg-gradient-to-br from-green-100 to-gray-100 rounded-lg flex items-center justify-center">
-                <div className="text-center">
-                  <Activity className="w-16 h-16 text-green-600 mx-auto mb-3" />
-                  <p className="text-gray-600 font-medium">Contornos Detectados</p>
+                <div className="space-y-3">
+                  <img
+                    src="https://github.com/AstridNielsen-lab/hemopatias/assets/32886080/e764bc92-24aa-4fb4-85c1-e427bf652d7e"
+                    alt="Menu de Opções"
+                    className="w-full rounded-lg border border-gray-200 shadow-md hover:shadow-xl transition-shadow"
+                  />
+                  <p className="text-sm text-gray-600 text-center">Menu de funcionalidades</p>
                 </div>
               </div>
             </div>
-            <div className="bg-white p-6 rounded-lg border border-gray-200">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Resultados da Análise</h3>
-              <div className="grid md:grid-cols-3 gap-4">
-                <div className="bg-blue-50 p-4 rounded-lg">
-                  <p className="text-sm text-gray-600 mb-1">Células Detectadas</p>
-                  <p className="text-2xl font-bold text-blue-600">127</p>
+
+            <div className="bg-gradient-to-br from-gray-50 to-white rounded-2xl shadow-xl p-8 border border-gray-200">
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">Processo de Análise</h3>
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div className="space-y-3">
+                  <img
+                    src="https://github.com/AstridNielsen-lab/hemopatias/assets/32886080/261c561f-aa2f-4959-bc08-cab3118eab7c"
+                    alt="Imagem Original"
+                    className="w-full rounded-lg border border-gray-200 shadow-md hover:shadow-xl transition-shadow"
+                  />
+                  <p className="text-sm text-gray-600 text-center font-medium">1. Imagem original da amostra</p>
                 </div>
-                <div className="bg-orange-50 p-4 rounded-lg">
-                  <p className="text-sm text-gray-600 mb-1">Células Anômalas</p>
-                  <p className="text-2xl font-bold text-orange-600">8</p>
+                <div className="space-y-3">
+                  <img
+                    src="https://github.com/AstridNielsen-lab/hemopatias/assets/32886080/949ff6a7-ee8e-4017-b10d-d23e279280ba"
+                    alt="Conversão para Escala de Cinza"
+                    className="w-full rounded-lg border border-gray-200 shadow-md hover:shadow-xl transition-shadow"
+                  />
+                  <p className="text-sm text-gray-600 text-center font-medium">2. Conversão para escala de cinza</p>
                 </div>
-                <div className="bg-green-50 p-4 rounded-lg">
-                  <p className="text-sm text-gray-600 mb-1">Precisão</p>
-                  <p className="text-2xl font-bold text-green-600">94%</p>
+                <div className="space-y-3">
+                  <img
+                    src="https://github.com/AstridNielsen-lab/hemopatias/assets/32886080/8b6d74ce-5b7a-4a8e-a260-49f903ef1e50"
+                    alt="Limiarização"
+                    className="w-full rounded-lg border border-gray-200 shadow-md hover:shadow-xl transition-shadow"
+                  />
+                  <p className="text-sm text-gray-600 text-center font-medium">3. Limiarização da imagem</p>
+                </div>
+                <div className="space-y-3">
+                  <img
+                    src="https://github.com/AstridNielsen-lab/hemopatias/assets/32886080/e788c6ea-5b11-4a28-8bd8-5213af8bf80e"
+                    alt="Detecção de Contornos"
+                    className="w-full rounded-lg border border-gray-200 shadow-md hover:shadow-xl transition-shadow"
+                  />
+                  <p className="text-sm text-gray-600 text-center font-medium">4. Detecção de contornos celulares</p>
+                </div>
+                <div className="space-y-3">
+                  <img
+                    src="https://github.com/AstridNielsen-lab/hemopatias/assets/32886080/651e7f47-45c0-4a20-b4b8-836e06e43921"
+                    alt="Marcação de Células"
+                    className="w-full rounded-lg border border-gray-200 shadow-md hover:shadow-xl transition-shadow"
+                  />
+                  <p className="text-sm text-gray-600 text-center font-medium">5. Marcação das células identificadas</p>
+                </div>
+                <div className="space-y-3">
+                  <img
+                    src="https://github.com/AstridNielsen-lab/hemopatias/assets/32886080/9d307ad2-3264-4a1a-9c1f-31fd73571abb"
+                    alt="Resultado Final"
+                    className="w-full rounded-lg border border-gray-200 shadow-md hover:shadow-xl transition-shadow"
+                  />
+                  <p className="text-sm text-gray-600 text-center font-medium">6. Resultado com análise completa</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-gradient-to-br from-gray-50 to-white rounded-2xl shadow-xl p-8 border border-gray-200">
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">Dados da Análise</h3>
+              <div className="grid md:grid-cols-2 gap-8">
+                <div className="space-y-3">
+                  <img
+                    src="https://github.com/AstridNielsen-lab/hemopatias/assets/32886080/fb2ca796-2e24-4bb9-8dc8-6f29d14a234c"
+                    alt="Tabela de Métricas"
+                    className="w-full rounded-lg border border-gray-200 shadow-md hover:shadow-xl transition-shadow"
+                  />
+                  <p className="text-sm text-gray-600 text-center">Métricas morfológicas detalhadas</p>
+                </div>
+                <div className="bg-white p-6 rounded-lg border border-gray-200 flex flex-col justify-center">
+                  <h4 className="text-xl font-bold text-gray-900 mb-4">Resultados da Análise</h4>
+                  <div className="space-y-4">
+                    <div className="bg-blue-50 p-4 rounded-lg">
+                      <p className="text-sm text-gray-600 mb-1">Células Detectadas</p>
+                      <p className="text-3xl font-bold text-blue-600">127</p>
+                    </div>
+                    <div className="bg-orange-50 p-4 rounded-lg">
+                      <p className="text-sm text-gray-600 mb-1">Células Anômalas</p>
+                      <p className="text-3xl font-bold text-orange-600">8</p>
+                    </div>
+                    <div className="bg-green-50 p-4 rounded-lg">
+                      <p className="text-sm text-gray-600 mb-1">Precisão do Sistema</p>
+                      <p className="text-3xl font-bold text-green-600">94%</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
