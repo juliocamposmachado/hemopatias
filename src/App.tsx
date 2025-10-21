@@ -37,10 +37,7 @@ function App() {
     setFormData({ name: '', email: '', message: '' });
   };
 
-  return (
-
-
-    
+  return (    
     <div className="min-h-screen bg-white">      
       <nav className="fixed top-0 w-full bg-white/95 backdrop-blur-sm border-b border-gray-200 z-50 transition-all duration-300">
         <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
@@ -99,17 +96,7 @@ function App() {
           <div className="mt-16 bg-white rounded-2xl shadow-2xl p-8 border border-gray-200">
             <div className="aspect-video rounded-lg overflow-hidden">
               
-              <iframe
-  className="w-full h-full rounded-xl"
-  src="https://www.youtube.com/embed/vxNeO3LAzqI?rel=0"
-  title="Demonstração Hemopatias"
-  frameBorder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowFullScreen
-  style={{ width: '100%', height: '100%' }}
-></iframe>
-
-
+             
                  <div className="flex justify-center items-center space-x-8 my-8">
   <iframe
     width="560"
