@@ -93,8 +93,14 @@ function App() {
             </div>
           </div>
           <div className="mt-16 bg-white rounded-2xl shadow-2xl p-8 border border-gray-200">
-            <div className="aspect-video bg-gradient-to-br from-blue-100 to-gray-100 rounded-lg flex items-center justify-center">
-              <Activity className="w-24 h-24 text-blue-600 animate-pulse" />
+            <div className="aspect-video rounded-lg overflow-hidden">
+              <iframe
+                className="w-full h-full"
+                src="https://youtu.be/vxNeO3LAzqI"
+                title="Análise de Células Sanguíneas"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
             </div>
           </div>
         </div>
