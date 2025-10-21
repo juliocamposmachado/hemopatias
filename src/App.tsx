@@ -3,8 +3,11 @@ import { useState } from 'react';
 import ChatAssistant from './components/ChatAssistant';
 import ImageAnalysis from './components/ImageAnalysis';
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/vxNeO3LAzqI?si=4WzBZ_tuoeu2bmW_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/kvI661vPmi8?si=5I4etsJ2sLGzgKg2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div>
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/vxNeO3LAzqI?si=4WzBZ_tuoeu2bmW_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+  <div><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/kvI661vPmi8?si=5I4etsJ2sLGzgKg2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
 
 function App() {
   const [showAnalysis, setShowAnalysis] = useState(false);
