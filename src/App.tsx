@@ -97,8 +97,9 @@ function App() {
             <div className="aspect-video rounded-lg overflow-hidden">
               
              
-                 <div className="flex justify-center items-center space-x-8 my-8">
+               <div className="flex flex-col justify-center items-center space-y-8 my-8">
   <iframe
+    className="rounded-lg shadow-lg"
     width="560"
     height="315"
     src="https://www.youtube-nocookie.com/embed/vxNeO3LAzqI?si=4WzBZ_tuoeu2bmW_"
@@ -110,6 +111,7 @@ function App() {
   ></iframe>
 
   <iframe
+    className="rounded-lg shadow-lg"
     width="560"
     height="315"
     src="https://www.youtube-nocookie.com/embed/kvI661vPmi8?si=5I4etsJ2sLGzgKg2"
@@ -118,8 +120,9 @@ function App() {
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     referrerPolicy="strict-origin-when-cross-origin"
     allowFullScreen
-  >    
-          </div>
+  ></iframe>
+</div>
+
                     </div>
         
         </div>
