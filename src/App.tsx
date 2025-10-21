@@ -1,9 +1,33 @@
-import { Microscope, Brain, LineChart, Code, Database, Zap, Activity, Mail, Github, BookOpen, Users, Target, ChevronRight, Play, MessageCircle, ExternalLink } from 'lucide-react';
+import { Microscope, Brain, LineChart, Code, Database, Zap, Activity, Mail, Github, BookOpen, Users, Target, ChevronRight, Play, MessageCircle, ExternalLink, Scan } from 'lucide-react';
 import { useState } from 'react';
 import ChatAssistant from './components/ChatAssistant';
+import ImageAnalysis from './components/ImageAnalysis';
 
 function App() {
+  const [showAnalysis, setShowAnalysis] = useState(false);
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
+
+  if (showAnalysis) {
+    return (
+      <div>
+        <nav className="fixed top-0 w-full bg-white/95 backdrop-blur-sm border-b border-gray-200 z-50 transition-all duration-300">
+          <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div className="flex items-center gap-2 cursor-pointer" onClick={() => setShowAnalysis(false)}>
+              <Microscope className="w-7 h-7 text-blue-600" />
+              <span className="text-2xl font-bold text-gray-900">Hemopatias</span>
+            </div>
+            <button
+              onClick={() => setShowAnalysis(false)}
+              className="text-gray-600 hover:text-blue-600 transition-colors font-medium"
+            >
+              Voltar ao Site
+            </button>
+          </div>
+        </nav>
+        <ImageAnalysis />
+      </div>
+    );
+  }
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -20,12 +44,19 @@ function App() {
             <Microscope className="w-7 h-7 text-blue-600" />
             <span className="text-2xl font-bold text-gray-900">Hemopatias</span>
           </div>
-          <div className="hidden md:flex gap-8">
+          <div className="hidden md:flex gap-8 items-center">
             <a href="#sobre" className="text-gray-600 hover:text-blue-600 transition-colors">Sobre</a>
             <a href="#funcionamento" className="text-gray-600 hover:text-blue-600 transition-colors">Como Funciona</a>
             <a href="#aplicacoes" className="text-gray-600 hover:text-blue-600 transition-colors">Aplicações</a>
             <a href="#tecnologias" className="text-gray-600 hover:text-blue-600 transition-colors">Tecnologias</a>
             <a href="#contato" className="text-gray-600 hover:text-blue-600 transition-colors">Contato</a>
+            <button
+              onClick={() => setShowAnalysis(true)}
+              className="inline-flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors font-medium"
+            >
+              <Scan className="w-4 h-4" />
+              Analisar Imagem
+            </button>
           </div>
         </div>
       </nav>
@@ -44,7 +75,14 @@ function App() {
               Análise automatizada de amostras celulares com precisão e velocidade
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
-              <a href="#demo" className="inline-flex items-center gap-2 bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition-all duration-300 shadow-lg hover:shadow-xl font-medium">
+              <button
+                onClick={() => setShowAnalysis(true)}
+                className="inline-flex items-center gap-2 bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition-all duration-300 shadow-lg hover:shadow-xl font-medium"
+              >
+                <Scan className="w-5 h-5" />
+                Analisar Imagem Agora
+              </button>
+              <a href="#demo" className="inline-flex items-center gap-2 bg-white text-gray-900 px-8 py-4 rounded-lg hover:bg-gray-50 transition-all duration-300 shadow-lg hover:shadow-xl font-medium border border-gray-200">
                 <Play className="w-5 h-5" />
                 Ver Demonstração
               </a>
