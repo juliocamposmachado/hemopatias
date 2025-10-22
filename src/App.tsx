@@ -288,7 +288,7 @@ function App() {
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <div className="space-y-3">
                   <img
-                    src="https://private-user-images.githubusercontent.com/32886080/503939360-a7951b86-ffef-478e-84ae-54fb77f1d307.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjEwOTM0NjMsIm5iZiI6MTc2MTA5MzE2MywicGF0aCI6Ii8zMjg4NjA4MC81MDM5MzkzNjAtYTc5NTFiODYtZmZlZi00NzhlLTg0YWUtNTRmYjc3ZjFkMzA3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTEwMjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMDIyVDAwMzI0M1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQxZWMxOTY0OTIwYWM4MjBkYzAyMmEwMzhmN2Y1MzMxM2Q5ZmI0MDEzZWNiNTEwNGNjY2ExNjM1MTY1YTExZTEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.XBWpz_b4XPOI3jUiz8yW18a_ogwkIBweaeSo1Y8vCUI"
+                    src="https://raw.githubusercontent.com/juliocamposmachado/hemopatias/refs/heads/main/src/Screenshot_4.png"
                     alt="Imagem Original"
                     className="w-full rounded-lg border border-gray-200 shadow-md hover:shadow-xl transition-shadow"
                   />
@@ -296,7 +296,7 @@ function App() {
                 </div>
                 <div className="space-y-3">
                   <img
-                    src="https://private-user-images.githubusercontent.com/32886080/503939482-d7c6dbb1-c1b9-47e6-a821-28bdb7baaca2.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjEwOTM4MzgsIm5iZiI6MTc2MTA5MzUzOCwicGF0aCI6Ii8zMjg4NjA4MC81MDM5Mzk0ODItZDdjNmRiYjEtYzFiOS00N2U2LWE4MjEtMjhiZGI3YmFhY2EyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTEwMjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMDIyVDAwMzg1OFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWM4ZWQ0YzQ5ZjkwOWViNDIyOTVlMDlkODU4YzY4Zjg0YzU0NGMzMGU1ZTIwYTNiYzRkYTVhODBmOWFhYmRiMzgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.OX-X5GXDGs9XgR6Cdvthw6ZfnreubURuzNrJBCF6Los"
+                    src="https://raw.githubusercontent.com/juliocamposmachado/hemopatias/refs/heads/main/src/Screenshot_5.png"
                     alt="Conversão para Escala de Cinza"
                     className="w-full rounded-lg border border-gray-200 shadow-md hover:shadow-xl transition-shadow"
                   />
@@ -304,7 +304,7 @@ function App() {
                 </div>
                 <div className="space-y-3">
                   <img
-                    src="https://private-user-images.githubusercontent.com/32886080/503939575-7efed87e-4f21-4050-8493-349511bede6c.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjEwOTM4MzgsIm5iZiI6MTc2MTA5MzUzOCwicGF0aCI6Ii8zMjg4NjA4MC81MDM5Mzk1NzUtN2VmZWQ4N2UtNGYyMS00MDUwLTg0OTMtMzQ5NTExYmVkZTZjLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTEwMjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMDIyVDAwMzg1OFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWZjNTBjOWJiMWFiNTNkYzVlNzM1NThiNjBhZDAwYTU4MWRlZTY3OGY2ODZlZDYwNjhkMGRhMzBhYWQ0MGVmZDcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.tKCNfi13e03Sx_8BWQg_5nKM5303WPpjbX3c3-e-_cY"
+                    src="https://raw.githubusercontent.com/juliocamposmachado/hemopatias/refs/heads/main/src/Screenshot_7.png"
                     alt="Limiarização"
                     className="w-full rounded-lg border border-gray-200 shadow-md hover:shadow-xl transition-shadow"
                   />
@@ -312,7 +312,7 @@ function App() {
                 </div>
                 <div className="space-y-3">
                   <img
-                    src="https://private-user-images.githubusercontent.com/32886080/503939575-7efed87e-4f21-4050-8493-349511bede6c.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjEwOTM4MzgsIm5iZiI6MTc2MTA5MzUzOCwicGF0aCI6Ii8zMjg4NjA4MC81MDM5Mzk1NzUtN2VmZWQ4N2UtNGYyMS00MDUwLTg0OTMtMzQ5NTExYmVkZTZjLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTEwMjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMDIyVDAwMzg1OFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWZjNTBjOWJiMWFiNTNkYzVlNzM1NThiNjBhZDAwYTU4MWRlZTY3OGY2ODZlZDYwNjhkMGRhMzBhYWQ0MGVmZDcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.tKCNfi13e03Sx_8BWQg_5nKM5303WPpjbX3c3-e-_cY"
+                    src="https://raw.githubusercontent.com/juliocamposmachado/hemopatias/refs/heads/main/src/Screenshot_6.png"
                     alt="Detecção de Contornos"
                     className="w-full rounded-lg border border-gray-200 shadow-md hover:shadow-xl transition-shadow"
                   />
@@ -320,7 +320,7 @@ function App() {
                 </div>
                 <div className="space-y-3">
                   <img
-                    src="https://private-user-images.githubusercontent.com/32886080/503939771-105fc9e1-212f-4f6f-af23-857f80e4cbea.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjEwOTM4MzgsIm5iZiI6MTc2MTA5MzUzOCwicGF0aCI6Ii8zMjg4NjA4MC81MDM5Mzk3NzEtMTA1ZmM5ZTEtMjEyZi00ZjZmLWFmMjMtODU3ZjgwZTRjYmVhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTEwMjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMDIyVDAwMzg1OFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPThkNGIzNjUwNjU3YWY0NjIzY2JmZjIyMjE2ODljNTNmNjY3ZGJlMTljZjI5MWYwMzM4MmRiY2E2ZmU4YjMyYjEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.u-fFGZdF92U5vTDDeSvq86dj7rSi7u15pu1H88brgtw"
+                    src="https://raw.githubusercontent.com/juliocamposmachado/hemopatias/refs/heads/main/src/Screenshot_9.png"
                     alt="Marcação de Células"
                     className="w-full rounded-lg border border-gray-200 shadow-md hover:shadow-xl transition-shadow"
                   />
@@ -328,7 +328,7 @@ function App() {
                 </div>
                 <div className="space-y-3">
                   <img
-                    src="https://private-user-images.githubusercontent.com/32886080/503939887-e71e09e8-1457-44ca-be8e-a548d7642882.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjEwOTM4MzgsIm5iZiI6MTc2MTA5MzUzOCwicGF0aCI6Ii8zMjg4NjA4MC81MDM5Mzk4ODctZTcxZTA5ZTgtMTQ1Ny00NGNhLWJlOGUtYTU0OGQ3NjQyODgyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTEwMjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMDIyVDAwMzg1OFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTNlZDIyMmVjNmMwMTRmYTMxZDQyNjU0YTk3MmFkNzk1NTdlNmEzODRjMjA1M2NkMTA1ZGZkY2IyNjRlZjY5ODEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.qOxVG3sBwcXxSp4px4FzbkYxa13ggcbWBKSZLRyoQSw"
+                    src="https://raw.githubusercontent.com/juliocamposmachado/hemopatias/refs/heads/main/src/Screenshot_12.png"
                     alt="Resultado Final"
                     className="w-full rounded-lg border border-gray-200 shadow-md hover:shadow-xl transition-shadow"
                   />
@@ -342,7 +342,7 @@ function App() {
               <div className="grid md:grid-cols-2 gap-8">
                 <div className="space-y-3">
                   <img
-                    src="https://github.com/AstridNielsen-lab/hemopatias/assets/32886080/fb2ca796-2e24-4bb9-8dc8-6f29d14a234c"
+                    src="https://raw.githubusercontent.com/juliocamposmachado/hemopatias/refs/heads/main/src/Screenshot_8.png"
                     alt="Tabela de Métricas"
                     className="w-full rounded-lg border border-gray-200 shadow-md hover:shadow-xl transition-shadow"
                   />
