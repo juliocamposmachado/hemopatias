@@ -288,7 +288,7 @@ function App() {
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <div className="space-y-3">
                   <img
-                    src="https://raw.githubusercontent.com/juliocamposmachado/hemopatias/refs/heads/main/src/Screenshot_4.png"
+                    src="https://raw.githubusercontent.com/juliocamposmachado/hemopatias/refs/heads/main/src/imagem.png"
                     alt="Imagem Original"
                     className="w-full rounded-lg border border-gray-200 shadow-md hover:shadow-xl transition-shadow"
                   />
