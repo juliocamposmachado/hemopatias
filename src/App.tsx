@@ -296,7 +296,7 @@ function App() {
                 </div>
                 <div className="space-y-3">
                   <img
-                    src="https://github.com/AstridNielsen-lab/hemopatias/assets/32886080/949ff6a7-ee8e-4017-b10d-d23e279280ba"
+                    src="https://private-user-images.githubusercontent.com/32886080/503939482-d7c6dbb1-c1b9-47e6-a821-28bdb7baaca2.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjEwOTM0NjMsIm5iZiI6MTc2MTA5MzE2MywicGF0aCI6Ii8zMjg4NjA4MC81MDM5Mzk0ODItZDdjNmRiYjEtYzFiOS00N2U2LWE4MjEtMjhiZGI3YmFhY2EyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTEwMjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMDIyVDAwMzI0M1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWE4MzZkMmEyMmFjYjg0YjhhZDNiOTVlNTMzOTI5ZDg4NTczYTg3OWM5ZTJlMTBkNmI1NTEyMzhmNTZmNTg1ODQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.0LzSmwbWLsK4pi3439oN0gT8nyYni_Slu30F3gjszHg"
                     alt="Conversão para Escala de Cinza"
                     className="w-full rounded-lg border border-gray-200 shadow-md hover:shadow-xl transition-shadow"
                   />
@@ -304,7 +304,7 @@ function App() {
                 </div>
                 <div className="space-y-3">
                   <img
-                    src="https://github.com/AstridNielsen-lab/hemopatias/assets/32886080/8b6d74ce-5b7a-4a8e-a260-49f903ef1e50"
+                    src="https://private-user-images.githubusercontent.com/32886080/503939636-444cd7b9-f97f-4e71-a0f1-d31f005d4252.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjEwOTM0NjMsIm5iZiI6MTc2MTA5MzE2MywicGF0aCI6Ii8zMjg4NjA4MC81MDM5Mzk2MzYtNDQ0Y2Q3YjktZjk3Zi00ZTcxLWEwZjEtZDMxZjAwNWQ0MjUyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTEwMjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMDIyVDAwMzI0M1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWVkZGM1M2Q0NGMyNmQxMzY3MWU3YTZhZDhmYmY3Nzg1MzIxYjdjOWM1MzMzYTkxYTA3NTYwZTRhMzMxODRjZDUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.7PzDe5jHeDQrSx4Nef_YYfsjLjVgtdKj_uWHD19n-2k"
                     alt="Limiarização"
                     className="w-full rounded-lg border border-gray-200 shadow-md hover:shadow-xl transition-shadow"
                   />
