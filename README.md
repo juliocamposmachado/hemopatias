@@ -110,6 +110,42 @@ Links uteis:
 
 ![image](https://github.com/AstridNielsen-lab/hemopatias/assets/32886080/fb2ca796-2e24-4bb9-8dc8-6f29d14a234c)
 
+<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/70ab35df-ccf9-4903-8817-9cf5340f16db" />
+
+<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/f89ccd15-2431-4078-9c6b-ac664ced88b8" />
+
+<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/cf9dcd02-cf99-440f-96c2-0b3c3db93f69" />
+
+<img width="1364" height="767" alt="image" src="https://github.com/user-attachments/assets/a7951b86-ffef-478e-84ae-54fb77f1d307" />
+
+<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/d7c6dbb1-c1b9-47e6-a821-28bdb7baaca2" />
+
+<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/7efed87e-4f21-4050-8493-349511bede6c" />
+
+<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/444cd7b9-f97f-4e71-a0f1-d31f005d4252" />
+
+<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/0ecaf91b-1dbf-47bd-baa8-b04a4cbb12a2" />
+
+<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/105fc9e1-212f-4f6f-af23-857f80e4cbea" />
+
+<img width="1364" height="767" alt="image" src="https://github.com/user-attachments/assets/088f5a6b-18da-46a7-8830-c50c0521d642" />
+
+<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/e71e09e8-1457-44ca-be8e-a548d7642882" />
+
+<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/d320b6c7-15c8-45d7-9f93-6fb6f8db689e" />
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
