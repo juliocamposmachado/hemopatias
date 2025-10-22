@@ -288,7 +288,7 @@ function App() {
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <div className="space-y-3">
                   <img
-                    src="https://github.com/AstridNielsen-lab/hemopatias/assets/32886080/261c561f-aa2f-4959-bc08-cab3118eab7c"
+                    src="https://private-user-images.githubusercontent.com/32886080/503939360-a7951b86-ffef-478e-84ae-54fb77f1d307.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjEwOTM0NjMsIm5iZiI6MTc2MTA5MzE2MywicGF0aCI6Ii8zMjg4NjA4MC81MDM5MzkzNjAtYTc5NTFiODYtZmZlZi00NzhlLTg0YWUtNTRmYjc3ZjFkMzA3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTEwMjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMDIyVDAwMzI0M1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQxZWMxOTY0OTIwYWM4MjBkYzAyMmEwMzhmN2Y1MzMxM2Q5ZmI0MDEzZWNiNTEwNGNjY2ExNjM1MTY1YTExZTEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.XBWpz_b4XPOI3jUiz8yW18a_ogwkIBweaeSo1Y8vCUI"
                     alt="Imagem Original"
                     className="w-full rounded-lg border border-gray-200 shadow-md hover:shadow-xl transition-shadow"
                   />
